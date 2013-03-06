@@ -14,6 +14,18 @@ FreeNAS is a FreeBSD based distribution that should help with that, since it is 
 
 I think it is time for a new approch to the free and open NAS world. One that follows a clean and nice structure and that makes it easy to contribute from the get go. Based on proven technologies and ideas it should really be possible to create a community around your home server.
 
+## Goals
+
+The main goal is to provide an easy to use network storage that can act as a backup solution, as well as a hub for all of one's digital devices. Therefore, the first step is to create a open source NAS system with a minimal core feature set (focus on providing a simple network storage solution). Further steps can then concentrate on making the overall system easier to use and provide more sophisticated integration with various devices.
+
+**Major Design Goals**
+
+* Simplicity
+* Easy installation (based on existing package management systems)
+* Meaningful default configuration (convention over configuration)
+* Easy to understand and easy to use
+* Easy to extend (modular architecture)
+
 ## Architecture - The Master Plan
 
 As with everything: making a plan makes sense. The master plan for this project is an architecture easy to understand and to extend. So what is the foundation for that? The base should be a *inx system. So something like FreeBSD and Ubuntu Server. I really like both distributions. And since Ubuntu has support for ZFS I feel comfortable to start from a Ubuntu. Ubuntu is also easy to learn and understand therefore contributing should be easy. Since I like to support FreeBSD also the operating system should be covered by an extra layer.
