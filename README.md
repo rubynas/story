@@ -4,7 +4,7 @@ The story of a new NAS system...
 
 ## Dream
 
-I allways had the dream of server at home which is an unobtrusive hub for most of my digital activities. Newer days those servers are called NAS (the short for network attached storage).
+I always had the dream of server at home which is an unobtrusive hub for most of my digital activities. Newer days those servers are called NAS (the short for network attached storage).
 
 If you have the money you can go to a local shop or amazon to buy a pretty good system already. There are pretty good systems from QNAP and Synology, EMC2 and more. They all have big feature lists and proprietary software.
 
