@@ -1,4 +1,4 @@
-# RubyNAS
+![alt text](resources/rubynas-text.png "rubynas")
 
 The story of a new NAS system...
 
@@ -28,9 +28,9 @@ The main goal is to provide an easy to use network storage that can act as a bac
 
 ## Architecture - The Master Plan
 
-As with everything: making a plan makes sense. The master plan for this project is an architecture easy to understand and to extend. So what is the foundation for that? The base should be a *inx system. So something like FreeBSD and Ubuntu Server. I really like both distributions. And since Ubuntu has support for ZFS I feel comfortable to start from a Ubuntu. Ubuntu is also easy to learn and understand therefore contributing should be easy. Since I like to support FreeBSD also the operating system should be covered by an extra layer.
+The base should be a *inx system. So something like FreeBSD and Ubuntu Server. I really like both distributions. And since Ubuntu has support for ZFS I feel comfortable to start from a Ubuntu. Ubuntu is also easy to learn and understand therefore contributing should be easy. Since I like to support FreeBSD also the operating system should be covered by an extra layer.
 
-Since a NAS system is mainly defined by its services, apps and configurations that are accessed using a nice and clean UI, this is one of the central parts of RubyNAS.
+Since a NAS system is mainly defined by its services, apps and configurations that are accessed using a nice and clean UI, this is one of the central parts of rubynas.
 
 The following Picture will illustrate the layers involved:
 
@@ -40,7 +40,7 @@ The base is a rails application with its railties or rails engines as the basic 
 
 ## Deployment
 
-The deployment should be simple and therefore is based on the package management system of the distribution it is running on. In other words to install RubyNAS on an Ubuntu system the dpkg system with deb files will be used etc..
+The deployment should be simple and therefore is based on the package management system of the distribution it is running on. In other words to install rubynas on an Ubuntu system the dpkg system with deb files will be used etc..
 
 To make the deployment easy there is a main project called **rubynas** that will include the other depending parts using the `Gemfile`. The rubynas package can than be produced with a simple:
 
